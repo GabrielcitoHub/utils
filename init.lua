@@ -7,13 +7,6 @@ local Utils = {
 	cache        = {},
 }
 
-function Utils:warn(...)
-    print("Warning: " .. ...)
-end
-function Utils.warn(...)
-    Utils:warn(...)
-end
-
 function warn(...)
     Utils:warn(...)
 end
